@@ -35,7 +35,7 @@ class Validator {
      * @param int $d
      * @return int
      */
-    function mod($n, $d)
+    function mod(int $n, int $d) :int
     {
         return $n - $d * floor($n/$d);
     }
